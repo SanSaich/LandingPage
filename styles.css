@@ -256,6 +256,13 @@ body {
 .services__column_mod {
   padding: 50px 15px 130px 15px;
 }
+
+@media (max-width: 767px) {
+  .services__body {
+    flex-direction: column;
+  }
+}
+
 .services__item {
   box-shadow: 0px 4px 16px rgba(0, 66, 148, 0.08);
   border-radius: 5px;
@@ -343,9 +350,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 50%;
 }
+
+@media (max-width: 767px) {
+  .person__box-img {
+    max-width: none;
+  }
+  .person__body-one,
+  .person__body-two {
+    flex-direction: column;
+  }
+}
+
 .person__box-img_2 {
-  flex: 0 1 50%;
 }
 .person__img {
   border-radius: 20px;
