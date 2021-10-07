@@ -263,11 +263,17 @@ body {
     padding: 0px 15px 30px 15px;
     flex: 0 1 50%;
   }
+  .services__column:last-child {
+    padding: 0px 15px 30px 15px;
+    flex: 1 1 100%;
+  }
 }
 @media (max-width: 767px) {
   .services__body {
     flex-direction: column;
     padding-top: 130px;
+    width: 100%;
+    margin: 0;
   }
 }
 
