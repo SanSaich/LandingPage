@@ -1,0 +1,108 @@
+.page__services {
+}
+.services {
+  background: #f5fcfd;
+}
+.services__container {
+}
+.services__shadow-round {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 99, 221, 0.23);
+  height: 114px;
+  width: 114px;
+  border-radius: 50%;
+  margin: -57px auto -57px auto;
+}
+.services__round {
+  /* position: absolute; */
+  display: flex;
+  background: #0f7bff;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+.services__arrow {
+}
+.services__body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -15px;
+  padding-top: 165px;
+  padding-bottom: 130px;
+}
+.services__column {
+  padding: 0px 15px 50px 15px;
+  flex: 0 1 33.333%;
+}
+.services__column_mod {
+  padding: 50px 15px 0px 15px;
+}
+@media (max-width: 992px) {
+  .services__column {
+    padding: 0px 15px 30px 15px;
+    flex: 0 1 50%;
+  }
+  .services__column:last-child {
+    padding: 0px 15px 30px 15px;
+    flex: 1 1 100%;
+  }
+}
+@media (max-width: 767px) {
+  .services__body {
+    flex-direction: column;
+    padding-top: 130px;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.services__item {
+  box-shadow: 0px 4px 16px rgba(0, 66, 148, 0.08);
+  border-radius: 5px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 47px 30px;
+  min-height: 100%;
+}
+.services__item > :not(:last-child) {
+  margin-bottom: 25px;
+}
+.item-service {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.item-service__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background: #dfedff;
+}
+.item-service__icon2 {
+  background: #f5dfff;
+}
+.item-service__icon3 {
+  background: #dfffe3;
+}
+.item-service__title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+.item-service__text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}

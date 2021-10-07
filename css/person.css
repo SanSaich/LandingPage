@@ -1,0 +1,92 @@
+.page__person {
+}
+.person {
+}
+.person__container {
+  position: relative;
+}
+.person__background {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  position: absolute;
+  margin-top: -108px;
+  margin-left: -86px;
+}
+.person__background_2 {
+  right: -70px;
+  margin-top: -26px;
+  margin-left: -86px;
+}
+.person__background-img {
+}
+.person__body-one {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto 203px auto;
+  position: relative;
+}
+.person__body-two {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  margin: 30px auto 88px auto;
+
+  position: relative;
+}
+.person__box-img {
+  flex: 0 1 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+}
+
+@media (max-width: 767px) {
+  .person__box-img {
+    max-width: none;
+  }
+  .person__body-one,
+  .person__body-two {
+    flex-direction: column;
+  }
+}
+
+.person__box-img_2 {
+}
+.person__img {
+  border-radius: 20px;
+}
+.person__column {
+  display: flex;
+  flex: 0 1 50%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px 0px 0px 108px;
+}
+.person__column_2 {
+  padding: 10px 0px 0px 0px;
+}
+.person__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+}
+.person__text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+}
+.person__button a {
+  display: flex;
+  align-items: center;
+}
+.person__button-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #0063dd;
+}
+.person__button-text img {
+  padding-left: 15px;
+}
