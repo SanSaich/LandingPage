@@ -50,6 +50,21 @@ body {
   margin: 0px auto;
 }
 
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: none;
+  }
+}
 .header {
   flex: 0 0 100px;
   z-index: 50;
