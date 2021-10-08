@@ -6,7 +6,7 @@
 }
 .price__body {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 130px 0;
@@ -16,9 +16,8 @@
   display: flex;
   flex-direction: column;
   align-items: left;
-  margin: 0 30px;
+  padding: 0 30px;
   flex: 0 1 33.333%;
-  /* max-width: 33.333%; */
 }
 .price__column > :not(:last-child) {
   margin-bottom: 30px;
@@ -42,6 +41,7 @@
 }
 .price__button {
   display: flex;
+  flex: 0 1 50%;
   align-items: center;
   justify-content: center;
   height: 50px;
@@ -61,16 +61,24 @@
 }
 .column {
   flex: 0 1 33.333%;
+  padding-left: 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: 0 30px;
-  background: #ffffff;
-  box-shadow: 0px 4px 20px rgba(0, 36, 80, 0.08);
-  border-radius: 5px;
+  align-items: stretch;
+  margin: 0;
 }
 .column :not(:last-child) {
   margin-bottom: 20px;
+}
+.column__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 30px;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 36, 80, 0.08);
+  border-radius: 5px;
+  margin: 0;
 }
 .column__shadow {
   display: flex;
@@ -103,7 +111,6 @@
   text-align: center;
   font-weight: 300;
   font-size: 16px;
-  line-height: 184%;
 }
 .column__sum {
   color: #0f7bff;
@@ -130,10 +137,11 @@
 }
 @media (max-width: 992px) {
   .price__column {
-    /* padding: 0px 15px 30px 15px; */
+    padding: 0px 15px 30px 15px;
     flex: 1 1 100%;
   }
   .column {
+    padding: 0px 15px 0 15px;
     flex: 0 1 50%;
   }
 }
