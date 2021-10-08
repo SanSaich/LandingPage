@@ -1,5 +1,4 @@
 .page {
-  /* flex: 1 1 auto; */
 }
 .page__main-block {
   /* background: center / cover no-repeat url("/img/main-block/Vector\ 1.svg"); */
@@ -49,7 +48,7 @@
   font-size: 16px;
   color: white;
 }
-.main-block__button:not(:last-child) {
+.main-block__button :not(:last-child) {
   margin: 0 30px 0 0;
 }
 .main-block__button_border {

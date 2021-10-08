@@ -1,0 +1,128 @@
+.page__price {
+}
+.price {
+}
+.price__container {
+}
+.price__body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 1 33.333%;
+  padding: 130px 0;
+  margin: 0 -30px;
+}
+.price__column {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 0 30px;
+  /* max-width: 33.333%; */
+}
+.price__column > :not(:last-child) {
+  margin-bottom: 30px;
+}
+.price__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+}
+.price__text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+}
+.price__buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  text-align: center;
+}
+.price__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  padding: 0 44px;
+  background: #0f7bff;
+  border-radius: 25px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+.price__button_left {
+  border-radius: 25px 0 0 25px;
+  color: white;
+}
+.price__button_right {
+  border-radius: 0 25px 25px 0;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 30px;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 36, 80, 0.08);
+  border-radius: 5px;
+}
+.column :not(:last-child) {
+  margin-bottom: 20px;
+}
+.column__shadow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(0, 99, 221, 0.15);
+  width: 114px;
+  height: 114px;
+}
+.column__round {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #0063dd;
+  width: 86px;
+  height: 86px;
+}
+.column__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+}
+.column__line {
+  width: 90%;
+  border: 1px solid #e9f3f8;
+}
+.column__text {
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 184%;
+}
+.column__sum {
+  color: #0f7bff;
+  font-weight: 500;
+  font-size: 18px;
+}
+.column__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  padding: 0 44px;
+  background: #0f7bff;
+  border-radius: 25px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+}
+.column__button_border {
+  background: white;
+  border: 2px solid #0f7bff;
+  color: #0f7bff;
+}
