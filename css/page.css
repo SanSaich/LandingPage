@@ -1,12 +1,12 @@
 .page {
-  flex: 1 1 auto;
+  /* flex: 1 1 auto; */
 }
 .page__main-block {
   /* background: center / cover no-repeat url("/img/main-block/Vector\ 1.svg"); */
 }
 .main-block {
-  height: 100vh;
   position: relative;
+  min-height: 100%;
   margin: -100px 0px 0px 0px;
 }
 .main-block__container {
@@ -73,6 +73,5 @@
   justify-content: center;
 }
 .main-block__devices-image {
-  position: absolute;
-  bottom: 0;
+  position: relative;
 }
