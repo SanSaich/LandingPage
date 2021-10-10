@@ -4,6 +4,8 @@
 @import url("/css/person.css");
 @import url("/css/howto.css");
 @import url("/css/price.css");
+@import url("/css/news.css");
+@import url("/css/trial.css");
 
 * {
   padding: 0;
