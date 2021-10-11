@@ -15,6 +15,15 @@ function clearActiveClasses() {
 
 //-----------------------------------
 
+$(document).ready(function () {
+  $(".owl-carousel").owlCarousel({
+    items: 3,
+    margin: 20,
+    dots: true,
+    dotsEach: true,
+  });
+});
+
 // const blockText = document.querySelector(".main-block__text");
 
 // blockText.innerHTML =
