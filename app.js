@@ -13,7 +13,7 @@ function clearActiveClasses() {
   });
 }
 
-//-----------------------------------
+//--------owlCarousel---------------------------
 
 $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
@@ -23,46 +23,3 @@ $(document).ready(function () {
     dotsEach: true,
   });
 });
-
-// const blockText = document.querySelector(".main-block__text");
-
-// blockText.innerHTML =
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis officia natus recusandae nam incidunt animi magnam, iste aliquam enim rem ipsum nihil eius temporibus distinctio molestias veniam assumenda sint." +
-//   console.log(blockText);
