@@ -74,3 +74,13 @@
 .main-block__devices-image {
   position: relative;
 }
+.scrollup {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  bottom: 27px;
+  right: 156px;
+  display: none;
+  text-indent: -9999px;
+  background: url("/img/Scrollup.png");
+}
