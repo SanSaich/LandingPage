@@ -39,7 +39,7 @@
   justify-content: space-between;
 }
 .card__title {
-  flex: 0 1 50%;
+  flex: 0 1 80%;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
@@ -52,7 +52,7 @@
   padding-top: 10px;
 }
 .card__icon {
-  flex: 0 1 50%;
+  flex: 0 1 20%;
 }
 .card__icon img {
   height: 20px;
