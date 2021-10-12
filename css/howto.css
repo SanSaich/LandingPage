@@ -36,6 +36,26 @@
 .howto__icon {
   width: 100px;
   height: 100px;
+  position: relative;
+  z-index: 50;
+}
+.howto__icon2 {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.howto__icon2::before {
+  content: "  ";
+  position: absolute;
+  width: 680px;
+  border: 2px dashed #0f7bff;
+}
+@media (max-width: 992px) {
+  .howto__icon2::before {
+    display: none;
+  }
 }
 .howto__title {
 }
