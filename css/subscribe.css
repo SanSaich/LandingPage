@@ -58,3 +58,34 @@
   line-height: 150%;
   color: #0063dd;
 }
+
+@media (max-width: 600px) {
+  .subscribe__body {
+    padding: 60px 0;
+  }
+  .subscribe__form {
+    flex-direction: column;
+    width: inherit;
+  }
+  .subscribe__left {
+    justify-content: space-between;
+    flex: 1 1 100%;
+  }
+  .subscribe__input {
+    height: 50px;
+    padding: 0 40px;
+    border-radius: 25px;
+    width: 264px;
+  }
+  .subscribe__right {
+    justify-content: space-between;
+    flex: 1 1 100%;
+    margin-top: 20px;
+  }
+  .subscribe__submit {
+    height: 50px;
+    padding: 0 40px;
+    border-radius: 25px;
+    width: 264px;
+  }
+}
