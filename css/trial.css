@@ -49,3 +49,13 @@
 .trial__button-text img {
   padding-left: 15px;
 }
+
+@media (max-width: 992px) {
+  .trial__body {
+    flex-direction: column;
+    padding: 30px 15px;
+  }
+  .trial__button {
+    margin: 20px 0;
+  }
+}
