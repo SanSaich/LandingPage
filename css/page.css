@@ -83,4 +83,6 @@
   display: none;
   text-indent: -9999px;
   background: url("/img/Scrollup.png");
+  border: 1px solid #0063dd;
+  border-radius: 50%;
 }
