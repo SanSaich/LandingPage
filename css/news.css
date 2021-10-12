@@ -40,7 +40,7 @@
   display: flex;
   flex: 0 1 50%;
   margin-bottom: 25px;
-  height: 292px;
+  height: 290px;
 }
 
 .left__bottom-block {
@@ -93,6 +93,7 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 150%;
+  color: #000000;
 }
 
 @media (max-width: 992px) {
@@ -119,11 +120,18 @@
   .left__bottom-block > :not(:last-child) {
     padding-bottom: 20px;
   }
+  .right__text {
+    justify-content: flex-start;
+  }
+  .right__text a {
+    padding-bottom: 10px;
+  }
 }
 @media (max-width: 525px) {
-  .right__img {
-    width: 100px;
-    /* object-fit: cover; */
-    overflow: hidden;
+  .right__item {
+    flex-direction: column;
+  }
+  .right__text {
+    padding-left: 0;
   }
 }
