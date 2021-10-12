@@ -71,4 +71,7 @@
   .footer__social {
     margin: 0;
   }
+  .footeer_text {
+    padding-left: 15px;
+  }
 }
