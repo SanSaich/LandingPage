@@ -149,7 +149,7 @@
 .button__left {
   color: white;
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .price__column {
     padding: 0px 15px 30px 15px;
     flex: 1 1 100%;
@@ -162,8 +162,19 @@
 @media (max-width: 767px) {
   .price__body {
     flex-direction: column;
-    /* padding-top: 130px; */
-    /* width: 100%; */
-    /* margin: 0; */
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+  .price__column {
+    flex: 1 1 100%;
+  }
+  .column {
+    padding: 0px 15px 30px 15px;
+    flex: 1 1 100%;
+    width: 100%;
+  }
+  .column__item {
+    width: 100%;
   }
 }

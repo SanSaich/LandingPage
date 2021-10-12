@@ -12,6 +12,19 @@
   margin-left: 98px;
   margin-top: 113px;
 }
+@media (max-width: 1200px) {
+  .slider__column_left {
+    display: none;
+  }
+  .slider__column_right {
+    margin: 0;
+    padding: 113px;
+    background: rgba(255, 255, 255, 0.548);
+  }
+  .slider {
+    background: left / contain no-repeat url("/img/slider/Image.png");
+  }
+}
 .slider__item {
 }
 .slider__title {
