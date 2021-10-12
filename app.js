@@ -17,9 +17,23 @@ function clearActiveClasses() {
 
 $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
-    items: 3,
     margin: 20,
     dots: true,
     dotsEach: true,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      767: {
+        items: 2,
+      },
+      1200: {
+        items: 2,
+      },
+      1600: {
+        items: 3,
+      },
+    },
   });
 });
